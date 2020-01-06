@@ -7,6 +7,6 @@ The Open Source EPANET Initiative (https://github.com/OpenWaterAnalytics/EPANET)
 
 The WaterNetGen team want to contribute to this initiative with an implementation of an improved Graphical User Interface that take advantage of the new features (e.g. Presure-Driven and Demand-Driven simulations & Additional Convergence Parameters) with improved visualization capabilities (Deficient nodes and Demand reduction).
 
-Sugestions e-mail WaterNetGen@gmail.com.
+Sugestions: WaterNetGen@gmail.com.
 
 (https://www.dec.uc.pt/~waternetgen/)
