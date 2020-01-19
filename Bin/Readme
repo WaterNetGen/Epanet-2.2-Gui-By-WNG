@@ -1,0 +1,7 @@
+epanet2.dll - The Epanet2 solver is compiled from OpenWaterAnalytics Github site. It can be replaced by new releases.
+(see OpenWaterAnalytics-DLL folder)
+
+Epanet22.chm - The Help file is an updated version build over the original Epanet help file (epanet2.chm).
+
+EpanetV22.exe - the new EXE program, for Epanet 2.2.
+
