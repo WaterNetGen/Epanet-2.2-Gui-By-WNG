@@ -1,3 +1,4 @@
+;== EPANET 2.2 .INP FORMAT FILE ==
 [TITLE]
  EPANET Example Network 1
 A simple example of modeling chlorine decay. Both bulk and
@@ -17,11 +18,11 @@ wall reactions are included.
 
 [RESERVOIRS]
 ;ID              	Head        	Pattern         
- 9               	800         	                	;
+ 9               	0           	                	;
 
 [TANKS]
-;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve
- 2               	850         	120         	100         	150         	50.5        	0           	                	;
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol          	VolCurve    	CanOverFlow
+ 2               	850         	120         	100         	150         	50.5        	0           	*               	NO 	;
 
 [PIPES]
 ;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
@@ -61,7 +62,7 @@ wall reactions are included.
 
 [CURVES]
 ;ID              	X-Value     	Y-Value
-;PUMP: Pump Curve for Pump 9
+;PUMP: PUMP: Pump Curve for Pump 9
  1               	1500        	250         
 
 [CONTROLS]
@@ -69,7 +70,9 @@ wall reactions are included.
  LINK 9 CLOSED IF NODE 2 ABOVE 140
 
 
+
 [RULES]
+
 
 [ENERGY]
  Global Efficiency  	75
@@ -121,7 +124,7 @@ wall reactions are included.
  Report Timestep    	1:00 
  Report Start       	0:00 
  Start ClockTime    	12 am
- Statistic          	None
+ Statistic          	NONE
 
 [REPORT]
  Status             	Yes
@@ -138,6 +141,15 @@ wall reactions are included.
  CHECKFREQ          	2
  MAXCHECK           	10
  DAMPLIMIT          	0
+ HeadError        	0
+ FlowChange       	0
+ HTOL             	0.0005
+ QTOL             	0.0001
+ RQTOL            	1E-7
+ Demand Model     	DDA
+ Minimum Pressure 	0.0
+ Required Pressure	0.1
+ Pressure Exponent	0.5
  Unbalanced         	Continue 10
  Pattern            	1
  Demand Multiplier  	1.0
@@ -176,3 +188,4 @@ wall reactions are included.
  OFFSET         	0.00            	0.00            
 
 [END]
+
