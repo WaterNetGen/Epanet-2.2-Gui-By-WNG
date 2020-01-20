@@ -1,4 +1,4 @@
-Epanet22.chm - The Help file is an updated version build over the original Epanet help file (epanet2.chm).
+Epanet22.chm - The Help file is an updated version built over the original Epanet help file (epanet2.chm).
 
 Tutorial.chm - The original EPANET Tutorial Help file.
 
@@ -6,4 +6,4 @@ epanet2.dll - The Epanet2 solver compiled from OpenWaterAnalytics Github site. I
 (see OpenWaterAnalytics-DLL folder)
 
 
-EpanetV22.exe - the new EXE program, for Epanet 2.2.
+EpanetV22.exe - the new EXE program, for the new Epanet solver (DLL, v2.2).
