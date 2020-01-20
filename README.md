@@ -10,8 +10,7 @@ The WaterNetGen team want to contribute to this initiative with an implementatio
 Sugestions: WaterNetGen@gmail.com. (https://www.dec.uc.pt/~waternetgen/)
 
 With partial support:
-Project: UIDB/00308/2020
-
+Project: UIDB/00308/2020. 
 INESC Coimbra, Department of Electrical and Computer Engineering, University of Coimbra, Polo 2, 3030-290 Coimbra, Portugal.
 
 
